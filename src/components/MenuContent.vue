@@ -4,9 +4,9 @@
       <img src="@/assets/sw_planets_logo.svg" />
     </div>
     <div class="menu__buttons">
-      <Buttons text="Play" class="button" path="planets"></Buttons>
-      <Buttons class="button" text="Intro" path="/"></Buttons>
-      <Buttons text="About" class="button" path="about"></Buttons>
+      <Buttons id="play" text="Play" class="button" path="planets"></Buttons>
+      <Buttons id="intro" text="Intro" class="button" path="/"></Buttons>
+      <Buttons id="about" text="About" class="button" path="about"></Buttons>
     </div>
   </div>
 </template>

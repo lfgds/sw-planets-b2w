@@ -4,7 +4,7 @@
     <ALongTime></ALongTime>
     <LogoStarWars></LogoStarWars>
     <TextContent></TextContent>
-    <Buttons class="button" text="Play Menu " path="/play"></Buttons>
+    <Buttons id="play_menu" class="button" text="Play Menu " path="/play"></Buttons>
   </div>
 </template>
 

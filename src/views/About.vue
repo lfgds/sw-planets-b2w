@@ -15,7 +15,7 @@
 
     <div class="about__buttons">
       <Buttons class="button" text="Home" path="/"></Buttons>
-      <Buttons class="button" text="Back to Menu" path="play"></Buttons>
+      <Buttons class="button" text="Menu" path="play"></Buttons>
     </div>
   </div>
 </template>

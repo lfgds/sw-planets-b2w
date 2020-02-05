@@ -11,23 +11,21 @@ export default {
 
 <style lang="scss">
 .button {
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1.15px;
+  border-radius: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
   font-family: "Barlow", sans-serif;
   background-color: #ffdd33;
   color: #000;
-  padding: 12px 32px 9px;
-  white-space: nowrap;
-  font-size: 1rem;
-  line-height: 1.125rem;
-  font-weight: bold;
-  letter-spacing: 0.025rem;
-  border-radius: 2px;
-  text-decoration: none;
+  padding: 15px;
   border: none;
-  text-transform: uppercase;
-  font-size: 16px;
   cursor: pointer;
   margin-bottom: 20px;
-  text-align: center;
+  margin-left: 15px;
 
   &:focus {
     outline: 0;
@@ -37,7 +35,6 @@ export default {
   }
   @media (min-width: 767px) {
     margin-bottom: 0;
-    margin-left: 15px;
   }
 
   &:first-child {

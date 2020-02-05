@@ -7,7 +7,4 @@ describe('Planets', () => {
   it('has a button', () => {
     wrapper.find("button").trigger("click");
   })
-  it('should exist function randomPlanet', () => {
-    wrapper.find(randomPlanet()).exists();
-  })
 })

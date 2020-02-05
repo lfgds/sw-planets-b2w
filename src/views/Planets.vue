@@ -6,8 +6,8 @@
       <Planet :planets="this.planets"></Planet>
     </div>
     <div class="planets__buttons">
-      <button @click="randomPlanet()" class="button">Next</button>
-      <Buttons class="button" text="Back to Menu" path="play"></Buttons>
+      <button id="randomPlanet" @click="randomPlanet()" class="button">Next</button>
+      <Buttons class="button" text="Menu" path="play"></Buttons>
     </div>
   </div>
 </template>
@@ -79,8 +79,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-radius: 5px 5px 0 0;
-    padding: 10px;
+    border-radius: 10px 10px 0 0;
     position: relative;
     z-index: 3;
 

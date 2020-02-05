@@ -11,13 +11,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+img {
+  max-height: 300px;
+}
 .loading {
   &__container {
     position: absolute;
-    width: calc(100% - 20px);
+    width: 100%;
     justify-content: center;
     display: flex;
     background-color: #000;
+    @media (max-width: 767px) {
+      height: 100%;
+    }
   }
 }
 </style>
