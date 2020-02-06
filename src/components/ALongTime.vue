@@ -29,6 +29,10 @@ section {
   font-weight: 400;
   font-size: 38px;
   opacity: 0;
+
+  @media (max-width: 767px) {
+    font-size: 22px;
+  }
 }
 
 @keyframes intro {

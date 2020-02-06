@@ -1,13 +1,14 @@
 <template>
-  <div class="planets__container">
-    <div class="planets__content">
-      <Loading v-show="isLoading"></Loading>
-
-      <Planet :planets="this.planets"></Planet>
-    </div>
-    <div class="planets__buttons">
-      <button id="randomPlanet" @click="randomPlanet()" class="button">Next</button>
-      <Buttons class="button" text="Menu" path="play"></Buttons>
+  <div>
+    <Loading v-show="isLoading" v-if="isLoading"></Loading>
+    <div class="planets__container" v-if="!isLoading">
+      <div class="planets__content">
+        <Planet :planets="this.planets"></Planet>
+      </div>
+      <div class="planets__buttons">
+        <button id="randomPlanet" @click="randomPlanet()" class="button">Next</button>
+        <Buttons class="button" text="Menu" path="play"></Buttons>
+      </div>
     </div>
   </div>
 </template>

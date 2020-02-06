@@ -35,6 +35,12 @@ p {
     width: 18em;
     bottom: 0;
     left: 50%;
+    @media (max-width: 767px) {
+      font-size: 150%;
+      height: 35em;
+      width: 16em;
+      left: 57%;
+    }
   }
 
   &:after {
